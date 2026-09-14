@@ -1,0 +1,1 @@
+export const UPI_ID='achintt@fam';export const PAYEE_NAME='Bappa Darshan Seva';export const SEVA_NOTE='Bappa Darshan Seva';export const MIN_SEVA_AMOUNT=5;export const MAX_SEVA_AMOUNT=1000000;export function buildUpiUrl(amount:number,note=SEVA_NOTE){const p=new URLSearchParams({pa:UPI_ID,pn:PAYEE_NAME,am:amount.toFixed(2),cu:'INR',tn:note});return `upi://pay?${p}`}

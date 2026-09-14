@@ -1,0 +1,1 @@
+import type {HTMLAttributes} from 'react';export function Card({className='',...p}:HTMLAttributes<HTMLDivElement>){return <div className={`glass ${className}`} {...p}/>}export function CardContent({className='',...p}:HTMLAttributes<HTMLDivElement>){return <div className={className} {...p}/>}

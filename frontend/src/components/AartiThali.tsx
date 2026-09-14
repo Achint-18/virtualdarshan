@@ -1,0 +1,1 @@
+import DiyaFlame from './DiyaFlame';export default function AartiThali({active}:{active:boolean}){return <div className={`mx-auto my-5 grid h-40 w-40 place-items-center rounded-full border-4 border-amber-500/60 bg-gradient-to-br from-amber-700/40 to-yellow-900/30 ${active?'animate-pulse':''}`}><DiyaFlame size="lg"/></div>}

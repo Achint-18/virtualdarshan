@@ -1,0 +1,1 @@
+import type {ButtonHTMLAttributes} from 'react';export function Button({className='',...p}:ButtonHTMLAttributes<HTMLButtonElement>){return <button className={`btn ${className}`} {...p}/>}export const buttonVariants=({size='md'}:{size?:string}={})=>`btn ${size==='lg'?'btn-primary':''}`;

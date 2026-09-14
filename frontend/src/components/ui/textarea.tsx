@@ -1,0 +1,1 @@
+import type {TextareaHTMLAttributes} from 'react';export function Textarea({className='',...p}:TextareaHTMLAttributes<HTMLTextAreaElement>){return <textarea className={`w-full rounded-xl border border-amber-500/25 bg-black/20 px-4 py-3 text-orange-50 outline-none ${className}`} {...p}/>}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://virtual-aarti.preview.emergentagent.com/sitemap.xml

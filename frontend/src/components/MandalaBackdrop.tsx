@@ -1,0 +1,1 @@
+export default function MandalaBackdrop(){return <svg className="mandala" viewBox="0 0 500 500" aria-hidden="true"><g fill="none" stroke="#f59e0b" strokeWidth="2">{Array.from({length:18},(_,i)=><ellipse key={i} cx="250" cy="100" rx="55" ry="145" transform={`rotate(${i*20} 250 250)`}/>)}</g></svg>}
