@@ -1,1 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://virtual-aarti.preview.emergentagent.com/</loc></url><url><loc>https://virtual-aarti.preview.emergentagent.com/darshan</loc></url><url><loc>https://virtual-aarti.preview.emergentagent.com/aarti</loc></url><url><loc>https://virtual-aarti.preview.emergentagent.com/seva</loc></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://virtualldarshan.netlify.app/</loc>
+  </url>
+  <url>
+    <loc>https://virtualldarshan.netlify.app/darshan</loc>
+  </url>
+  <url>
+    <loc>https://virtualldarshan.netlify.app/aarti</loc>
+  </url>
+  <url>
+    <loc>https://virtualldarshan.netlify.app/seva</loc>
+  </url>
+</urlset>
